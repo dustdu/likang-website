@@ -8,7 +8,7 @@
     "algolia": "hexo algolia",
     "build": "hexo generate",
     "deploy": "hexo deploy",
-    "release": "hexo clean&&hexo algolia&&hexo deploy" 
+    "release": "hexo clean&&hexo algolia&&hexo deploy"
   },
   "hexo": {
     "version": "6.2.0"
@@ -27,6 +27,7 @@
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-butterfly": "^4.3.1",
-    "hexo-theme-landscape": "^0.0.3"
+    "hexo-theme-landscape": "^0.0.3",
+    "hexo-wordcount": "^6.0.1"
   }
 }
