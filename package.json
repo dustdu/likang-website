@@ -3,17 +3,19 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "server": "hexo server",
     "clean": "hexo clean",
+    "algolia": "hexo algolia",
+    "build": "hexo generate",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "release": "hexo clean&&hexo algolia&&hexo deploy" 
   },
   "hexo": {
     "version": "6.2.0"
   },
   "dependencies": {
     "hexo": "^6.2.0",
-    "hexo-algolia": "^1.3.2",
+    "hexo-algoliasearch": "^1.0.0",
     "hexo-deployer-git": "^3.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",

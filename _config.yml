@@ -109,6 +109,13 @@ deploy:
 
 # 搜索
 algolia:
-  applicationID: 'FLWC2BGDBB'
-  apiKey: '826aa6d012accf55a9357a9ec819459f'
-  indexName: 'comment'
+  appId: FLWC2BGDBB
+  apiKey: 826aa6d012accf55a9357a9ec819459f
+  adminApiKey: a47a953b51296751041809db8cc75919
+  chunkSize: 5000
+  indexName: comment
+  fields:
+    - content:strip:truncate,0,500
+    - excerpt:strip
+    - path
+    - title
