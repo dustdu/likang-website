@@ -102,4 +102,13 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:dustdu/dustdu.github.io.git
+  branch: main
+  message: 个人网站
+
+# 搜索
+algolia:
+  applicationID: 'FLWC2BGDBB'
+  apiKey: '826aa6d012accf55a9357a9ec819459f'
+  indexName: 'comment'
