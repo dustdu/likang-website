@@ -1,0 +1,9 @@
+@font-face {
+  font-family: customFont;
+  src: url('https://likang-website.oss-cn-shanghai.aliyuncs.com/HYLanMeiMeiW.ttf');
+}
+
+@font-face {
+  font-family: customFontCode;
+  src: url('https://likang-website.oss-cn-shanghai.aliyuncs.com/CascadiaCode.woff2');
+}
